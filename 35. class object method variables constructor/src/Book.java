@@ -47,7 +47,7 @@ public class Book {
     public static void main(String[] args) {
         Book designOfThings = new Book("1", "Design", "Author");
         Book myBook = new Book("2");
-        System.out.println(Book.getTotalNoOfBooks());
+        System.out.println("Total number of books: "+Book.getTotalNoOfBooks());
         designOfThings.borrowBook();
         myBook.borrowBook();
         designOfThings.borrowBook();
